@@ -1,0 +1,12 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SYZEmptyPlaceholderKit_Example' do
+  pod 'SYZEmptyPlaceholderKit', :path => '../'
+
+  target 'SYZEmptyPlaceholderKit_Tests' do
+    inherit! :search_paths
+
+  end
+end

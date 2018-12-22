@@ -1,0 +1,6 @@
+framework module SYZBundleHandler {
+  umbrella header "SYZBundleHandler-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,29 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SYZBundleHandler (0.1.1)
+  - SYZEmptyPlaceholderKit (0.1.0):
+    - DZNEmptyDataSet
+    - SYZBundleHandler
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SYZEmptyPlaceholderKit (from `../`)
+
+EXTERNAL SOURCES:
+  SYZEmptyPlaceholderKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SYZBundleHandler: 596b50720bc42bca0ec8128c5b8bdc921ea954ac
+  SYZEmptyPlaceholderKit: bd5862111941e5d0552c78e9f75ab3b9fbaeea5a
+
+PODFILE CHECKSUM: 33aba5e2af01a10c4c6319dbdab17bc094cdb513
+
+COCOAPODS: 1.4.0
